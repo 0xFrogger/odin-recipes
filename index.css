@@ -1,0 +1,45 @@
+html{
+    min-height: auto;
+    background-color: rgb(238, 105, 105);
+}
+
+#title{
+    text-align: center;
+    background-color: rgb(161, 161, 240);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.block{
+    display: block;
+    margin: auto;
+    align-items: center;
+    border-radius: 30px;
+    width: min(70%, 400px);
+    text-align: center;
+    padding: 30px;
+}
+
+#mainPic{
+    width: 300px;
+    height: auto;
+}
+
+.block#content{
+    text-align: justify;
+    width: 300px;
+    border: 10px solid black;
+    padding: 10px;
+    background-color: white;
+} 
+
+.recipe{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-decoration: none;
+
+}
